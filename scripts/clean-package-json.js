@@ -88,7 +88,6 @@ for (const childrenName of srcChildrenList) {
 packageJson = {
   ...packageJson,
   main: `${cjsPrefix}/index.js`,
-  // module: `${esPrefix}/index.js`,
   types: `${dtsPrefix}/index.d.ts`,
   author: {
     name: '泥豆君',
@@ -114,15 +113,15 @@ packageJson = {
   },
 
   keywords: ['state', 'mudbean', '数据仓', 'vvi'],
-  homepage: 'https://npm.lmssee.com/state',
+  homepage: 'https://npms.gleanings.cn/state',
   dependencies,
   bugs: {
-    url: 'https://github.com/MrMudBean/state/issues',
+    url: 'https://github.com/gleanings/state/issues',
     email: 'Mr.MudBean@outlook.com',
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.com/MrMudBean/state.git',
+    url: 'git+https://github.com/gleanings/state.git',
   },
   publishConfig: {
     access: 'public',
